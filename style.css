@@ -1,0 +1,43 @@
+:root {
+    scrollbar-gutter: auto;
+}
+
+body{
+    background-color: #191B22;
+}
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    padding-left: 56px;
+    background-color: #2E3037;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#anuncio-esquerdo{
+    height: 100%;
+}
+
+#anuncio-direito{
+    height: 100%;
+}
+
+#img-aside{
+    width: 200px;
+    height: 100%;
+}
+
+#img-placar{
+    width: 100%;
+}
+
+.cards-noticias{
+    display: flex;
+    gap: 20px;
+}
