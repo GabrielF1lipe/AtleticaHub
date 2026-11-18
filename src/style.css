@@ -41,6 +41,10 @@ body{
     min-height: calc(100vh - 70px);
 }
 
+main{
+    width: 904px
+}
+
 header{
     display: flex;
     justify-content: center;
@@ -99,6 +103,20 @@ header{
 .cards-noticias{
     display: flex;
     gap: 20px;
+}
+
+.carousel{
+    margin: 50px 0;
+}
+.carousel-inner{
+    gap: 50px;
+}
+
+.carousel-item{
+    padding: 10px;
+    align-content: center;
+    border: 1px solid #ff5e1e;
+    border-radius: 10px;
 }
 
 .sombra-laranja{

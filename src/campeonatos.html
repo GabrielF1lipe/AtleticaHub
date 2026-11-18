@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campeonatos</title>
+
+
+    <!--Bootstrap-->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-translucent md:navbar-expand" data-bs-theme="dark">
+        <div class="container-fluid">
+            <ul class="navbar-nav negrito sombra-laranja">
+                <li class="nav-item">
+                    <a class="nav-link sem-foco" aria-current="page" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="campeonatos.html">Campeonatos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link sem-foco" href="#">Atléticas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link sem-foco" href="#">Jogadores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link sem-foco" href="#">Partidas</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="container">
+        <aside class="anuncio">
+            <img class="img-aside" src="../imagens/aside esquerdo.png" alt="Anúncio da camisa da Atlética Hub">
+        </aside>
+
+        <main>
+            <header>
+                <h1 class="fonte-laranja sombra-laranja">AtléticaHub</h1>
+            </header>
+
+            <div class="pesquisa">
+                <div class="form-field">
+                    <input type="text" class="form-control" id="fieldText" placeholder="Pesquise seu campeonato favorito...">
+                </div>
+            </div>
+
+            <div id="carouselVariable" class="carousel carousel-auto slide" data-bs-ends="stop" style="--bs-carousel-items-gap: 1rem;">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">🟢 Essa Semana</h5>
+                    <div>
+                        <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselVariable" data-bs-slide="prev" style="--bs-carousel-control-icon-width: 1rem;">
+                            <span class="carousel-icon-prev" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                        <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselVariable" data-bs-slide="next" style="--bs-carousel-control-icon-width: 1rem;">
+                            <span class="carousel-icon-next" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active" style="width: 300px;">
+                        <img src="../imagens/BLAST_Rivals_2026.png" class="d-block w-100 rounded-5" alt="...">
+                    </div>
+                    <div class="carousel-item" style="width: 300px;">
+                        <img src="../imagens/Intel_Extreme_Masters_2022.png" class="d-block w-100 rounded-5" alt="...">
+                    </div>
+                    <div class="carousel-item" style="width: 300px;">
+                        <img src="../imagens/ESL_Pro_League_Season_24.png" class="d-block w-100 rounded-5" alt="...">
+                    </div>
+                    <div class="carousel-item" style="width: 150px;">
+                        <img src="../imagens/PGL_Major_Singapore_2026.png" class="d-block w-100 rounded-5" alt="...">
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion">
+                <p class="negrito">📆 Próximas Semanas</p>
+                <details class="accordion-item theme-success" name="accordionExample">
+                    <summary class="accordion-header negrito">
+                        TBOW Gamers Club - 20/11
+                        <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
+                    </summary>
+                    <div class="accordion-body">
+                        <strong>Inscrições:</strong> 11/11/2026 até 13/11/2026
+                        <br>
+                        <strong>Data de início:</strong> 20/11/2026 - 19h
+                        <br>
+                        <strong>Data de término:</strong> 22/11/2026
+                    </div>
+                </details>
+                <details class="accordion-item theme-success" name="accordionExample">
+                    <summary class="accordion-header negrito">
+                        Balada Gamers Club - 28/11
+                        <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
+                    </summary>
+                    <div class="accordion-body" >
+                        <strong>Inscrições:</strong> 15/11/2026 até 17/11/2026
+                        <br>
+                        <strong>Data de início:</strong> 24/11/2026 - 19h
+                        <br>
+                        <strong>Data de término:</strong> 26/11/2026
+                    </div>
+                </details>
+                <details class="accordion-item theme-success" name="accordionExample">
+                    <summary class="accordion-header negrito">
+                        Hellcase Cup - 03/12
+                        <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
+                    </summary>
+                    <div class="accordion-body">
+                        <strong>Inscrições:</strong> 19/11/2026 até 21/11/2026
+                        <br>
+                        <strong>Data de início:</strong> 28/11/2026 - 19h
+                        <br>
+                        <strong>Data de término:</strong> 30/11/2026
+                    </div>
+                </details>
+            </div>
+
+
+        </main>
+
+        <aside class="anuncio">
+            <img class="img-aside" src="../imagens/aside direito.png" alt="Anúncio da camisa da Atlética Hub">
+        </aside>
+    </div>
+
+
+
+
+</body>
+
+</html>
