@@ -20,7 +20,7 @@
         <div class="container-fluid">
             <ul class="navbar-nav negrito sombra-laranja">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    <a class="nav-link sem-foco" aria-current="page" href="home.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link sem-foco" href="campeonatos.html">Campeonatos</a>
@@ -32,7 +32,7 @@
                     <a class="nav-link sem-foco" href="#">Jogadores</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link sem-foco" href="#">Partidas</a>
+                    <a class="nav-link active" href="partidas.html">Partidas</a>
                 </li>
             </ul>
         </div>
@@ -47,19 +47,13 @@
             <header>
                 <h1 class="fonte-laranja sombra-laranja">AtléticaHub</h1>
             </header>
-
-            <div class="pesquisa">
-                <div class="form-field">
-                    <input type="text" class="form-control" id="fieldText" placeholder="Pesquise seu campeonato favorito...">
-                </div>
-            </div>
             
-            <section aria-labelledby="partida-video-titulo">
-                <h2 id="partida-video-titulo" class="fonte-laranja">
+            <div id="live-partidas">
+                <h2 id="partida-video-titulo">
                     FURIA vs SPIRIT — BLAST London 2025
-                </h2>
+                </h2>                
                 <div class="ratio ratio-16x9">
-                    <iframe
+                    <iframe class="sombra-laranja"
                         src="https://www.youtube.com/embed/hbbifuxkKcU?autoplay=1&mute=1&playsinline=1"
                         title="FURIA vs SPIRIT - Partida completa com Gaules - BLAST London 2025"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -67,7 +61,24 @@
                         allowfullscreen>
                     </iframe>
                 </div>
-            </section>
+
+                <div id="scoreboard" class="sombra-amarela">
+                    <div class="colunas">
+                        <p class="player">| VoZ</p>
+                        <p class="player">torress</p>
+                        <p class="player">nkz.</p>
+                        <p class="player">estrela</p>
+                        <p class="player">nevxssssss</p>
+                    </div>
+                    <div class="colunas">
+                        <p class="player">CoeSapao</p>
+                        <p class="player">Satotz</p>
+                        <p class="player">Rodrigod</p>
+                        <p class="player">Shark</p>
+                        <p class="player">JF</p>
+                    </div>
+                </div>
+            </div>
 
         </main>
 
